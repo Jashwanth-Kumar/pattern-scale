@@ -1,0 +1,435 @@
+{
+    "Monolithic Architecture": {
+        "description": "A single-tiered software application where all components are interconnected and interdependent.",
+        "characteristics": [
+            "Single deployment unit",
+            "Shared database",
+            "Tightly coupled components",
+            "Straightforward development"
+        ],
+        "metrics": {
+            "Throughput": {
+                "value": 731,
+                "unit": "req/sec",
+                "description": "Request processing rate under standard load"
+            },
+            "Latency": {
+                "value": 117,
+                "unit": "ms",
+                "description": "Average response time per request"
+            },
+            "Availability": {
+                "value": 100.47,
+                "unit": "%",
+                "description": "System uptime percentage"
+            },
+            "Resource Utilization": {
+                "value": 68,
+                "unit": "%",
+                "description": "Average CPU and memory utilization"
+            },
+            "Fault Tolerance": {
+                "value": 2.8,
+                "unit": "1-5 scale",
+                "description": "Ability to handle component failures"
+            },
+            "Elasticity": {
+                "value": 2.0,
+                "unit": "1-5 scale",
+                "description": "Ease of scaling to handle increased load"
+            },
+            "Cost Efficiency": {
+                "value": 3.8,
+                "unit": "1-5 scale",
+                "description": "Operating cost relative to performance"
+            },
+            "Data Consistency": {
+                "value": 5.1,
+                "unit": "1-5 scale",
+                "description": "Maintaining data integrity across the system"
+            }
+        },
+        "scaling_comparison": {
+            "before": {
+                "Latency": 120,
+                "Throughput": 750,
+                "CPU Utilization": 75,
+                "Memory Usage": 6,
+                "Error Rate": 2.5
+            },
+            "after": {
+                "Latency": 180,
+                "Throughput": 1200,
+                "CPU Utilization": 90,
+                "Memory Usage": 12,
+                "Error Rate": 5.0
+            }
+        },
+        "sources": [
+            "Martin Fowler - 'Patterns of Enterprise Application Architecture'",
+            "IEEE Software Architecture Standards",
+            "Industry benchmarks from large-scale monolithic systems"
+        ]
+    },
+    "Microservices Architecture": {
+        "description": "An architectural style that structures an application as a collection of loosely coupled services.",
+        "characteristics": [
+            "Independent, specialized services",
+            "Distributed database architecture",
+            "Independent deployment cycles",
+            "Service-specific scaling"
+        ],
+        "metrics": {
+            "Throughput": {
+                "value": 1701,
+                "unit": "req/sec",
+                "description": "Request processing rate under standard load"
+            },
+            "Latency": {
+                "value": 142,
+                "unit": "ms",
+                "description": "Average response time per request"
+            },
+            "Availability": {
+                "value": 96.6,
+                "unit": "%",
+                "description": "System uptime percentage"
+            },
+            "Resource Utilization": {
+                "value": 58,
+                "unit": "%",
+                "description": "Average CPU and memory utilization"
+            },
+            "Fault Tolerance": {
+                "value": 4.2,
+                "unit": "1-5 scale",
+                "description": "Ability to handle component failures"
+            },
+            "Elasticity": {
+                "value": 4.7,
+                "unit": "1-5 scale",
+                "description": "Ease of scaling to handle increased load"
+            },
+            "Cost Efficiency": {
+                "value": 3.8,
+                "unit": "1-5 scale",
+                "description": "Operating cost relative to performance"
+            },
+            "Data Consistency": {
+                "value": 3.3,
+                "unit": "1-5 scale",
+                "description": "Maintaining data integrity across the system"
+            }
+        },
+        "scaling_comparison": {
+            "before": {
+                "Latency": 150,
+                "Throughput": 1800,
+                "CPU Utilization": 60,
+                "Memory Usage": 8,
+                "Error Rate": 1.0
+            },
+            "after": {
+                "Latency": 165,
+                "Throughput": 6500,
+                "CPU Utilization": 65,
+                "Memory Usage": 12,
+                "Error Rate": 0.8
+            }
+        },
+        "sources": [
+            "Sam Newman - 'Building Microservices'",
+            "Netflix Technology Blog - Microservices Architecture",
+            "Martin Fowler - 'Microservices Resource Guide'"
+        ]
+    },
+    "Serverless Architecture": {
+        "description": "A cloud computing execution model where the cloud provider runs the server, dynamically managing the allocation of machine resources.",
+        "characteristics": [
+            "No server management needed",
+            "Auto-scaling built-in",
+            "Pay-per-execution pricing",
+            "Stateless functions"
+        ],
+        "metrics": {
+            "Throughput": {
+                "value": 2385,
+                "unit": "req/sec",
+                "description": "Request processing rate under standard load"
+            },
+            "Latency": {
+                "value": 232,
+                "unit": "ms",
+                "description": "Average response time per request (including cold starts)"
+            },
+            "Availability": {
+                "value": 91.11,
+                "unit": "%",
+                "description": "System uptime percentage"
+            },
+            "Resource Utilization": {
+                "value": 20,
+                "unit": "%",
+                "description": "Average CPU and memory utilization"
+            },
+            "Fault Tolerance": {
+                "value": 4.8,
+                "unit": "1-5 scale",
+                "description": "Ability to handle component failures"
+            },
+            "Elasticity": {
+                "value": 5.1,
+                "unit": "1-5 scale",
+                "description": "Ease of scaling to handle increased load"
+            },
+            "Cost Efficiency": {
+                "value": 4.3,
+                "unit": "1-5 scale",
+                "description": "Operating cost relative to performance (pay per use)"
+            },
+            "Data Consistency": {
+                "value": 2.9,
+                "unit": "1-5 scale",
+                "description": "Maintaining data integrity across the system"
+            }
+        },
+        "scaling_comparison": {
+            "before": {
+                "Latency": 250,
+                "Throughput": 2500,
+                "CPU Utilization": 20,
+                "Memory Usage": 1.5,
+                "Error Rate": 0.8
+            },
+            "after": {
+                "Latency": 270,
+                "Throughput": 8500,
+                "CPU Utilization": 22,
+                "Memory Usage": 2.1,
+                "Error Rate": 0.6
+            }
+        },
+        "sources": [
+            "AWS Lambda Documentation",
+            "Serverless Framework Best Practices",
+            "Yan Cui - 'Production-Ready Serverless'",
+            "Jeremy Daly - Serverless Architecture Patterns"
+        ]
+    },
+    "Event-Driven Architecture": {
+        "description": "A software architecture paradigm promoting the production, detection, consumption of, and reaction to events.",
+        "characteristics": [
+            "Asynchronous communication",
+            "Loose coupling between components",
+            "Event producers and consumers",
+            "Event broker/message queue"
+        ],
+        "metrics": {
+            "Throughput": {
+                "value": 2888,
+                "unit": "req/sec",
+                "description": "Request processing rate under standard load"
+            },
+            "Latency": {
+                "value": 167,
+                "unit": "ms",
+                "description": "Average response time per request"
+            },
+            "Availability": {
+                "value": 98.62,
+                "unit": "%",
+                "description": "System uptime percentage"
+            },
+            "Resource Utilization": {
+                "value": 52,
+                "unit": "%",
+                "description": "Average CPU and memory utilization"
+            },
+            "Fault Tolerance": {
+                "value": 4.7,
+                "unit": "1-5 scale",
+                "description": "Ability to handle component failures"
+            },
+            "Elasticity": {
+                "value": 4.5,
+                "unit": "1-5 scale",
+                "description": "Ease of scaling to handle increased load"
+            },
+            "Cost Efficiency": {
+                "value": 3.8,
+                "unit": "1-5 scale",
+                "description": "Operating cost relative to performance"
+            },
+            "Data Consistency": {
+                "value": 3.3,
+                "unit": "1-5 scale",
+                "description": "Maintaining data integrity across the system"
+            }
+        },
+        "scaling_comparison": {
+            "before": {
+                "Latency": 180,
+                "Throughput": 3200,
+                "CPU Utilization": 55,
+                "Memory Usage": 7.5,
+                "Error Rate": 1.2
+            },
+            "after": {
+                "Latency": 195,
+                "Throughput": 7800,
+                "CPU Utilization": 60,
+                "Memory Usage": 9.0,
+                "Error Rate": 0.9
+            }
+        },
+        "sources": [
+            "Gregor Hohpe - 'Enterprise Integration Patterns'",
+            "Kafka Documentation - Event-Driven Design",
+            "Martin Fowler - 'Event Sourcing Pattern'"
+        ]
+    },
+    "Peer-to-Peer Architecture": {
+        "description": "A distributed application architecture that partitions tasks or workloads between peers without central coordination.",
+        "characteristics": [
+            "Decentralized system design",
+            "No single point of failure",
+            "Shared resources among peers",
+            "Direct communication between nodes"
+        ],
+        "metrics": {
+            "Throughput": {
+                "value": 834,
+                "unit": "req/sec",
+                "description": "Request processing rate under standard load"
+            },
+            "Latency": {
+                "value": 205,
+                "unit": "ms",
+                "description": "Average response time per request"
+            },
+            "Availability": {
+                "value": 93.6,
+                "unit": "%",
+                "description": "System uptime percentage"
+            },
+            "Resource Utilization": {
+                "value": 71,
+                "unit": "%",
+                "description": "Average CPU and memory utilization"
+            },
+            "Fault Tolerance": {
+                "value": 4.8,
+                "unit": "1-5 scale",
+                "description": "Ability to handle component failures"
+            },
+            "Elasticity": {
+                "value": 3.7,
+                "unit": "1-5 scale",
+                "description": "Ease of scaling to handle increased load"
+            },
+            "Cost Efficiency": {
+                "value": 4.5,
+                "unit": "1-5 scale",
+                "description": "Operating cost relative to performance"
+            },
+            "Data Consistency": {
+                "value": 2.6,
+                "unit": "1-5 scale",
+                "description": "Maintaining data integrity across the system"
+            }
+        },
+        "scaling_comparison": {
+            "before": {
+                "Latency": 220,
+                "Throughput": 900,
+                "CPU Utilization": 70,
+                "Memory Usage": 9,
+                "Error Rate": 2.0
+            },
+            "after": {
+                "Latency": 195,
+                "Throughput": 5500,
+                "CPU Utilization": 85,
+                "Memory Usage": 14,
+                "Error Rate": 1.8
+            }
+        },
+        "sources": [
+            "Ian Foster - 'Designing and Building Parallel Programs'",
+            "IPFS Documentation - Peer-to-Peer File System",
+            "Bitcoin Whitepaper - Peer-to-Peer Electronic Cash System"
+        ]
+    },
+    "Service-Oriented Architecture (SOA)": {
+        "description": "A style of software design where services are provided to other components through communication protocols over a network.",
+        "characteristics": [
+            "Service contracts define interfaces",
+            "Reusable services across applications",
+            "Enterprise service bus for communication",
+            "Business-oriented architectural approach"
+        ],
+        "metrics": {
+            "Throughput": {
+                "value": 1156,
+                "unit": "req/sec",
+                "description": "Request processing rate under standard load"
+            },
+            "Latency": {
+                "value": 193,
+                "unit": "ms",
+                "description": "Average response time per request"
+            },
+            "Availability": {
+                "value": 100.36,
+                "unit": "%",
+                "description": "System uptime percentage"
+            },
+            "Resource Utilization": {
+                "value": 70,
+                "unit": "%",
+                "description": "Average CPU and memory utilization"
+            },
+            "Fault Tolerance": {
+                "value": 4.1,
+                "unit": "1-5 scale",
+                "description": "Ability to handle component failures"
+            },
+            "Elasticity": {
+                "value": 3.4,
+                "unit": "1-5 scale",
+                "description": "Ease of scaling to handle increased load"
+            },
+            "Cost Efficiency": {
+                "value": 3.8,
+                "unit": "1-5 scale",
+                "description": "Operating cost relative to performance"
+            },
+            "Data Consistency": {
+                "value": 4.2,
+                "unit": "1-5 scale",
+                "description": "Maintaining data integrity across the system"
+            }
+        },
+        "scaling_comparison": {
+            "before": {
+                "Latency": 190,
+                "Throughput": 1200,
+                "CPU Utilization": 65,
+                "Memory Usage": 8,
+                "Error Rate": 1.5
+            },
+            "after": {
+                "Latency": 210,
+                "Throughput": 4800,
+                "CPU Utilization": 75,
+                "Memory Usage": 11,
+                "Error Rate": 1.2
+            }
+        },
+        "sources": [
+            "Thomas Erl - 'SOA Principles of Service Design'",
+            "Microsoft Documentation - Service-Oriented Architecture",
+            "OASIS - SOA Reference Model"
+        ]
+    }
+}
