@@ -1,7 +1,7 @@
 [server]
 headless = true
 address = "localhost"
-port = 9989
+port = 1000
 
 [theme]
 primaryColor = "#0066cc"

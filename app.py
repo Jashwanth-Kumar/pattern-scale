@@ -27,6 +27,7 @@ if 'before_after_data' not in st.session_state:
     st.session_state.before_after_data = None
 
 # Main title and description
+st.write("") 
 st.title("🏛️ AI Architecture Pattern Evaluator")
 st.markdown("""
 This application helps you evaluate different software architecture patterns based on performance metrics. 
@@ -108,7 +109,7 @@ if page == "Home":
         
         for pattern in pattern_names:
             st.markdown(f"- **{pattern}**")
-            
+    with col2:            
         st.markdown("""
         ### Key Metrics Tracked
         
@@ -124,21 +125,6 @@ if page == "Home":
         - **Data Consistency**: Data integrity across the system
         """)
     
-    with col2:
-        st.markdown("### Quick Start")
-        selected_pattern = st.selectbox("Select an architecture pattern to explore:", pattern_names)
-        
-        if st.button("Analyze Pattern"):
-            st.session_state.selected_pattern = selected_pattern
-            st.info(f"Navigating to {selected_pattern} details...")
-            st.switch_page("pages/dashboard.py")  # This will trigger a page switch in Streamlit
-            
-        st.markdown("### Or Try")
-        if st.button("Compare All Patterns"):
-            st.switch_page("pages/comparison.py")
-            
-        if st.button("Run Custom Test Plan"):
-            st.switch_page("pages/custom_test.py")
     
     # Show sample metrics comparison
     st.header("Sample Metrics Comparison")

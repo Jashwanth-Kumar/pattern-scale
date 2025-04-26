@@ -5,6 +5,16 @@ def show():
     st.title("About & Citations")
     
     st.markdown("""
+    <style>
+        a {
+            color: black !important;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+                
     # AI Architecture Pattern Evaluator
     
     This application helps you evaluate different software architecture patterns based on performance metrics.
@@ -83,51 +93,28 @@ def show():
     
     ### Academic Sources
     
-    - Richards, M. (2015). *Software Architecture Patterns*. O'Reilly Media.
-    - Fowler, M. (2002). *Patterns of Enterprise Application Architecture*. Addison-Wesley.
-    - Newman, S. (2015). *Building Microservices*. O'Reilly Media.
-    - Bass, L., Clements, P., & Kazman, R. (2012). *Software Architecture in Practice*. Addison-Wesley Professional.
+    - [Richards, M. (2015). *Software Architecture Patterns*. O'Reilly Media.](https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/)      [E-Book](https://theswissbay.ch/pdf/Books/Computer%20science/O'Reilly/software-architecture-patterns.pdf)
+    - [Fowler, M. (2002). *Patterns of Enterprise Application Architecture*. Addison-Wesley.](https://martinfowler.com/books/eaa.html)      [E-Book](https://dl.ebooksworld.ir/motoman/Patterns%20of%20Enterprise%20Application%20Architecture.pdf)
+    - [Newman, S. (2015). *Building Microservices*. O'Reilly Media.](https://www.oreilly.com/library/view/building-microservices/9781491950340/)        [E- Book](https://github.com/namhoangduc99/TargetOf2018/blob/master/Sam%20Newman-Building%20Microservices-O'Reilly%20Media%20(2015).pdf)
+    - [Bass, L., Clements, P., & Kazman, R. (2012). *Software Architecture in Practice*. Addison-Wesley Professional.](https://www.oreilly.com/library/view/software-architecture-in/9780132942799/)        [E-Book](https://ptgmedia.pearsoncmg.com/images/9780321815736/samplepages/0321815734.pdf)
     
     ### Industry Reports and Documentation
     
-    - AWS Architecture Center: Best Practices for Serverless Applications
-    - Microsoft Azure Architecture Center: Microservices Design Patterns
-    - Netflix Technology Blog: Microservices at Netflix Scale
-    - Kubernetes Documentation: Best Practices for Large Clusters
+    - [AWS Architecture Center: Best Practices for Serverless Applications](https://aws.amazon.com/blogs/compute/best-practices-for-organizing-larger-serverless-applications/).
+    - [Microsoft Azure Architecture Center: Microservices Design Patterns](https://learn.microsoft.com/en-us/azure/architecture/microservices/design/patterns).
+    - [Netflix Technology Blog: Microservices at Netflix Scale](https://gotocon.com/dl/goto-amsterdam-2016/slides/RuslanMeshenberg_MicroservicesAtNetflixScaleFirstPrinciplesTradeoffsLessonsLearned.pdf)
+    - [Google Cloud Architecture Framework: Best Practices for Cloud-Native Applications](https://cloud.google.com/architecture/framework).
+    - [Kubernetes Documentation: Best Practices for Large Clusters](https://kubernetes.io/docs/setup/best-practices/cluster-large/)
     
     ### Benchmarking Studies
     
-    - TechEmpower Web Framework Benchmarks
-    - SPEC Cloud IaaS 2018 Benchmark
-    - Serverless Computing Benchmark Suite
-    
+    - [TechEmpower Web Framework Benchmarks](https://www.techempower.com/benchmarks/#section=data-r23&test=json)
+    - [SPEC Cloud IaaS 2018 Benchmark](https://www.spec.org/cloud_iaas2018/results/cloud_iaas2018/)
+                
     ### Case Studies
     
-    - Netflix's migration from monolithic to microservices architecture
-    - Amazon's event-driven architecture for high-throughput systems
-    - Spotify's service-oriented architecture evolution
-    - Google's approach to distributed systems and scaling
-    
-    ## About the Author
-    
-    This application was developed as part of a project on "Software Architecture Patterns for Deploying and Managing Generative AI Models at Scale".
-    
-    ## Disclaimer
-    
-    The performance metrics provided by this application are based on general patterns and may not reflect the exact performance of your specific implementation. 
-    Actual performance will vary based on implementation details, hardware, network conditions, and other factors.
-    """)
-    
-    # Add contact information or feedback mechanism
-    st.subheader("Feedback")
-    st.markdown("""
-    If you have any questions, suggestions, or feedback about this application, please feel free to reach out.
-    """)
-    
-    # Version information
-    st.subheader("Version Information")
-    st.markdown("""
-    **Version**: 1.0.0  
-    **Last Updated**: 2025
-    """)
+    - [Netflix's migration from monolithic to microservices architecture](https://roshancloudarchitect.me/understanding-netflixs-microservices-architecture-a-cloud-architect-s-perspective-5c345f0a70af#:~:text=From%20Monolithic%20to%20Microservices%3A&text=By%202008%2C%20Netflix%20shifted%20to,without%20affecting%20the%20whole%20system.)
+    - [Amazon's event-driven architecture for high-throughput systems](https://aws.amazon.com/event-driven-architecture/)
+    - [Google's approach to distributed systems and scaling](https://cloud.google.com/architecture/scalable-and-resilient-apps#scalability_adjusting_capacity_to_meet_demand)
+    """,unsafe_allow_html=True)
 
