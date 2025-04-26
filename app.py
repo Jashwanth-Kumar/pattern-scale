@@ -109,7 +109,8 @@ if page == "Home":
         
         for pattern in pattern_names:
             st.markdown(f"- **{pattern}**")
-    with col2:            
+                    
+    with col2:
         st.markdown("""
         ### Key Metrics Tracked
         
