@@ -9,42 +9,42 @@
         ],
         "metrics": {
             "Throughput": {
-                "value": 731,
+                "value": 722,
                 "unit": "req/sec",
                 "description": "Request processing rate under standard load"
             },
             "Latency": {
-                "value": 117,
+                "value": 118,
                 "unit": "ms",
                 "description": "Average response time per request"
             },
             "Availability": {
-                "value": 100.47,
+                "value": 107.66,
                 "unit": "%",
                 "description": "System uptime percentage"
             },
             "Resource Utilization": {
-                "value": 68,
+                "value": 73,
                 "unit": "%",
                 "description": "Average CPU and memory utilization"
             },
             "Fault Tolerance": {
-                "value": 2.8,
+                "value": 2.9,
                 "unit": "1-5 scale",
                 "description": "Ability to handle component failures"
             },
             "Elasticity": {
-                "value": 2.0,
+                "value": 1.9,
                 "unit": "1-5 scale",
                 "description": "Ease of scaling to handle increased load"
             },
             "Cost Efficiency": {
-                "value": 3.8,
+                "value": 4.0,
                 "unit": "1-5 scale",
                 "description": "Operating cost relative to performance"
             },
             "Data Consistency": {
-                "value": 5.1,
+                "value": 4.6,
                 "unit": "1-5 scale",
                 "description": "Maintaining data integrity across the system"
             }
@@ -81,22 +81,22 @@
         ],
         "metrics": {
             "Throughput": {
-                "value": 1701,
+                "value": 1839,
                 "unit": "req/sec",
                 "description": "Request processing rate under standard load"
             },
             "Latency": {
-                "value": 142,
+                "value": 140,
                 "unit": "ms",
                 "description": "Average response time per request"
             },
             "Availability": {
-                "value": 96.6,
+                "value": 96.12,
                 "unit": "%",
                 "description": "System uptime percentage"
             },
             "Resource Utilization": {
-                "value": 58,
+                "value": 60,
                 "unit": "%",
                 "description": "Average CPU and memory utilization"
             },
@@ -106,17 +106,17 @@
                 "description": "Ability to handle component failures"
             },
             "Elasticity": {
-                "value": 4.7,
+                "value": 5.1,
                 "unit": "1-5 scale",
                 "description": "Ease of scaling to handle increased load"
             },
             "Cost Efficiency": {
-                "value": 3.8,
+                "value": 3.4,
                 "unit": "1-5 scale",
                 "description": "Operating cost relative to performance"
             },
             "Data Consistency": {
-                "value": 3.3,
+                "value": 3.0,
                 "unit": "1-5 scale",
                 "description": "Maintaining data integrity across the system"
             }
@@ -153,37 +153,37 @@
         ],
         "metrics": {
             "Throughput": {
-                "value": 2385,
+                "value": 2434,
                 "unit": "req/sec",
                 "description": "Request processing rate under standard load"
             },
             "Latency": {
-                "value": 232,
+                "value": 240,
                 "unit": "ms",
                 "description": "Average response time per request (including cold starts)"
             },
             "Availability": {
-                "value": 91.11,
+                "value": 96.83,
                 "unit": "%",
                 "description": "System uptime percentage"
             },
             "Resource Utilization": {
-                "value": 20,
+                "value": 18,
                 "unit": "%",
                 "description": "Average CPU and memory utilization"
             },
             "Fault Tolerance": {
-                "value": 4.8,
+                "value": 4.9,
                 "unit": "1-5 scale",
                 "description": "Ability to handle component failures"
             },
             "Elasticity": {
-                "value": 5.1,
+                "value": 5.4,
                 "unit": "1-5 scale",
                 "description": "Ease of scaling to handle increased load"
             },
             "Cost Efficiency": {
-                "value": 4.3,
+                "value": 4.9,
                 "unit": "1-5 scale",
                 "description": "Operating cost relative to performance (pay per use)"
             },
@@ -226,42 +226,42 @@
         ],
         "metrics": {
             "Throughput": {
-                "value": 2888,
+                "value": 2989,
                 "unit": "req/sec",
                 "description": "Request processing rate under standard load"
             },
             "Latency": {
-                "value": 167,
+                "value": 197,
                 "unit": "ms",
                 "description": "Average response time per request"
             },
             "Availability": {
-                "value": 98.62,
+                "value": 108.12,
                 "unit": "%",
                 "description": "System uptime percentage"
             },
             "Resource Utilization": {
-                "value": 52,
+                "value": 54,
                 "unit": "%",
                 "description": "Average CPU and memory utilization"
             },
             "Fault Tolerance": {
-                "value": 4.7,
+                "value": 4.1,
                 "unit": "1-5 scale",
                 "description": "Ability to handle component failures"
             },
             "Elasticity": {
-                "value": 4.5,
+                "value": 3.9,
                 "unit": "1-5 scale",
                 "description": "Ease of scaling to handle increased load"
             },
             "Cost Efficiency": {
-                "value": 3.8,
+                "value": 3.9,
                 "unit": "1-5 scale",
                 "description": "Operating cost relative to performance"
             },
             "Data Consistency": {
-                "value": 3.3,
+                "value": 3.5,
                 "unit": "1-5 scale",
                 "description": "Maintaining data integrity across the system"
             }
@@ -298,27 +298,27 @@
         ],
         "metrics": {
             "Throughput": {
-                "value": 834,
+                "value": 947,
                 "unit": "req/sec",
                 "description": "Request processing rate under standard load"
             },
             "Latency": {
-                "value": 205,
+                "value": 211,
                 "unit": "ms",
                 "description": "Average response time per request"
             },
             "Availability": {
-                "value": 93.6,
+                "value": 107.43,
                 "unit": "%",
                 "description": "System uptime percentage"
             },
             "Resource Utilization": {
-                "value": 71,
+                "value": 75,
                 "unit": "%",
                 "description": "Average CPU and memory utilization"
             },
             "Fault Tolerance": {
-                "value": 4.8,
+                "value": 5.0,
                 "unit": "1-5 scale",
                 "description": "Ability to handle component failures"
             },
@@ -328,12 +328,12 @@
                 "description": "Ease of scaling to handle increased load"
             },
             "Cost Efficiency": {
-                "value": 4.5,
+                "value": 4.3,
                 "unit": "1-5 scale",
                 "description": "Operating cost relative to performance"
             },
             "Data Consistency": {
-                "value": 2.6,
+                "value": 2.7,
                 "unit": "1-5 scale",
                 "description": "Maintaining data integrity across the system"
             }
@@ -370,17 +370,17 @@
         ],
         "metrics": {
             "Throughput": {
-                "value": 1156,
+                "value": 1102,
                 "unit": "req/sec",
                 "description": "Request processing rate under standard load"
             },
             "Latency": {
-                "value": 193,
+                "value": 183,
                 "unit": "ms",
                 "description": "Average response time per request"
             },
             "Availability": {
-                "value": 100.36,
+                "value": 89.87,
                 "unit": "%",
                 "description": "System uptime percentage"
             },
@@ -390,7 +390,7 @@
                 "description": "Average CPU and memory utilization"
             },
             "Fault Tolerance": {
-                "value": 4.1,
+                "value": 3.6,
                 "unit": "1-5 scale",
                 "description": "Ability to handle component failures"
             },
@@ -400,12 +400,12 @@
                 "description": "Ease of scaling to handle increased load"
             },
             "Cost Efficiency": {
-                "value": 3.8,
+                "value": 3.6,
                 "unit": "1-5 scale",
                 "description": "Operating cost relative to performance"
             },
             "Data Consistency": {
-                "value": 4.2,
+                "value": 4.4,
                 "unit": "1-5 scale",
                 "description": "Maintaining data integrity across the system"
             }

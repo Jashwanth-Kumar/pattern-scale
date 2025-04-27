@@ -33,7 +33,7 @@ def show():
             pattern_names
         )
         
-        col1, col2 = st.columns([1, 1])
+        col1, col2 = st.columns([1, 3])
         
         with col1:
             st.markdown("### Test Options")
